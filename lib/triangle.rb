@@ -29,7 +29,7 @@ class Triangle
 
   def valid_triangle
     raise TriangleError unless valid_sides? && positive_num?
-  endgit
+  end
 
   class TriangleError < StandardError
   end
